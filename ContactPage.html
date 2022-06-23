@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Umar Website</title>
+	<link rel="stylesheet" type="text/css" href="ContactPage.css">
+
+</head>
+<body>
+	<nav class="nav">
+		<div class="imgNav">
+			<img src="https://lh3.googleusercontent.com/ogw/ADea4I7D10bg9HmxwdfWgx0Azr49CsjuziE-Hn7dCehN=s64-c-mo" width="30" height="30">
+		</div>
+		<div class="button">
+			<div class="Button1">
+				<button class="B1"><a href="WebPage.html" class="Button1_A">Home</a></button>
+			</div>
+
+			<div class="Button2">
+				<button class="B2"><a href="AboutPage.html" class="Button2_A">About us</a></button>
+			</div>
+			<div class="Button3">
+				<button class="B3"><a href="ContactPage.html" class="Button3_A">Contact</a></button>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<h1 class="IntroHeader">Type your message that you whant to submit here:-</h1>
+		<form action="http://localhost/Real/contact.php" method="POST">
+			<textarea name="Message" placeholder="Message you want to type!" rows="30" cols="100"></textarea><br>
+			<label class="IntroHeader">Put Your Email Here :-</label>
+			<input type="text" name="toEmail" id="toEmail" class="form-control" placeholder="Email address" required autofocus><br>
+			<label class="IntroHeader">Put Your Name Here :-</label>
+			<input type="text" name="subject" id="subject" placeholder="Name" required autofocus>
+			<br><br>
+			<button type="submit" class="B1" name="Sub">Submit</button>
+		</form>
+	</header>
+	<footer>
+		<h1>Make sure to subsribe to our channel & hit the bell icon!</h1>
+		<button class="YT_Button">
+			<a href="#">
+				<img src="th.webp" class="YT_LOGO">
+			</a>
+		</button>
+	</footer>
+
+</body>
+
+
+</html>

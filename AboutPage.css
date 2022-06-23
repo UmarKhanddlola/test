@@ -1,0 +1,84 @@
+.nav {
+	background-color: blue;
+	align-content: center;
+	align-items: flex-start;
+	display: flex;
+}
+
+.B1 {
+	margin-right: 100px;
+	border-style: solid;
+	background-color: red;
+	border-color: blue;
+	font-size: large;
+	color: blue;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.B2 {
+	margin-right: 100px;
+	border-style: solid;
+	background-color: red;
+	border-color: black;
+	font-size: large;
+	color: blue;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.B3 {
+	border-style: solid;
+	background-color: red;
+	border-color: blue;
+	font-size: large;
+	color: blue;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.B1.active,.B1:hover {
+	color: blue;
+	opacity: .7;
+}
+
+.B2.active,.B2:hover {
+	color: blue;
+	opacity: .7;
+}
+
+.B3.active,.B3:hover {
+	color: blue;
+	opacity: .7;
+}
+
+.imgNav {
+	margin: 10px;
+	margin-right: auto;
+}
+
+.button{
+	display: flex;
+}
+
+.IntroHeader{
+	background-color: red;
+	color: blue;
+	font-family: cursive;
+	padding: 5px;
+	margin: 5px;
+}
+.Courses {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.Button1_A{
+	text-decoration: none;
+}
+.Button2_A{
+	text-decoration: none;
+}
+.Button3_A{
+	text-decoration: none;
+}
